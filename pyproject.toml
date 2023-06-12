@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "repl_nix_scrum-1githubio"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^9.5.0"
+Jinja2 = "^3.1.2"
+Flask = "^2.3.2"
+pygame = "^2.4.0"
+pytest-browser = "^0.2.0"
+pytz = "^2023.3"
+bs4 = "^0.0.1"
+javascript = "^2015.32.59"
+typogrify = "^2.0.7"
+pelican = "^4.8.0"
+Flask-Cors = "^3.0.10"
+fabric = "^3.1.0"
+gevent = "^22.10.2"
+waitress = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
